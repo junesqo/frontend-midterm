@@ -1,18 +1,18 @@
-.animated-image-container {
+.animated-logo-container {
     position: relative;
     width: 300px;
     height: 300px;
     overflow: hidden;
   }
   
-  .animated-image {
+  .animated-logo {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    animation: animateImage 4s linear infinite;
+    width: 50%;
+    height: 50%;
+    animation: animateLogo 4s linear infinite;
   }
   
-  @keyframes animateImage {
+  @keyframes animateLogo {
     0% {
       transform: scale(1) rotate(0deg);
     }
